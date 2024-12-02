@@ -231,7 +231,7 @@
                 y: p.height / 2,
                 r: 10,
                 xSpeed: 5,
-                ySpeed: 5,
+                ySpeed: -5,
               };
               brickWidth = p.width / cols;
 
@@ -344,7 +344,7 @@
               ball.x = p.width / 2;
               ball.y = p.height / 2;
               ball.xSpeed = p.random([-5, 5]);
-              ball.ySpeed = 5;
+              ball.ySpeed = -5;
             }
           });
         }, 5);
